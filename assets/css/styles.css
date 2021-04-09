@@ -269,6 +269,15 @@ ul.slider li:target{
     .menu-btn{
         display: block;
     }
+
+    .menu-slider li a{
+        font-size: 25px;
+        padding: 15px;
+    }
+
+    .menu-slider{
+        margin:0px;
+    }
 }
 
 @media(max-width:600px){
