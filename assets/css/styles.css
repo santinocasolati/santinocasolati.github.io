@@ -226,6 +226,11 @@ ul.slider li:target{
     opacity:1;
 }
 
+.titles {
+    text-align: center;
+    font-size:30px;
+}
+
 
 @media(max-width:700px){
 
@@ -278,11 +283,19 @@ ul.slider li:target{
     .menu-slider{
         margin:0px;
     }
+
+    .titles{
+        font-size:20px;
+    }
 }
 
 @media(max-width:600px){
     .about-me-img{
         margin-left:35px;
+    }
+
+    .titles{
+        font-size:18px;
     }
 }
 
@@ -303,6 +316,10 @@ ul.slider li:target{
 
     .links a i {
         font-size:1.5rem;
+    }
+
+    .titles{
+        font-size:15px;
     }
 }
 
